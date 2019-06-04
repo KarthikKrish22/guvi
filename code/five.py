@@ -1,5 +1,12 @@
 integer1=int(input())
 integer2=int(input())
 integer3=int(input())
-maximum=max(integer1,integer2,integer3)
-print(maximum)
+if(integer1>integer2):
+    if(integer1>integer3):
+        print(integer1)
+    else:
+        print(integer3)
+elif(integer2>integer3):
+        print(integer2)
+else:
+    print(integer3)
